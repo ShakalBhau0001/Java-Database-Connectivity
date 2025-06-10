@@ -1,0 +1,36 @@
+<=  JDBC : (Java DataBase Connectivity) Steps As Follows =>
+
+1.  Install " Eclipse IDE for Enterprise Java and Web Developers ".
+
+2.  Download Link :- https://www.eclipse.org/downloads/packages/release/2025-06/m2
+
+3.  After Clicking The Link Select " Windows " x86_64 Downloading Starts in Zip Format.
+
+4.  After Complation The Downloading Find Following Zip File :- " eclipse-java-2025-03-R-win64.zip ".
+
+5.  After Finding The Zip File We Have To Extract The Zip File As Follows =>
+        A. Click On The Zip File.
+        B. Click " Right Click ".
+        C. Find The Option " Extract All.. " And Click It.
+        D. After Extracting The Zip File We Have To Find Following Folder :- " eclipse ".
+
+6.  After Finding The Folder " Double Click " On It & Open The " eclipse " Folder.
+
+7.  After Opening The " eclipse " Folder Find " eclipse.exe " & " Double Click " On It.
+
+8.  Follow The All The Next Steps Carefully =>
+        A. Go To MenuBar And Click On " File " Option.
+        B. Then Click On " New " And Select " Java Project " Option.
+        C. Then Write Your Project Name Like " jdbc " After That Press " Enter " Button. (You Can Give Your Own Specific Name For Your Folder)
+        D. Now Write The JDBC Code OR Program. 
+        E. After The Writing The Code We Have To Add A " .jar " File To Execute Our JDBC Code OR Program.
+        F. Go To Or Click On " Package Explorer " Then Click On Your Project Folder Name Like " jdbc ".
+        G. Click " Right Click " & Find " Build Path " Option.
+        H. In " Build Path " Select " Configure Build Path " Option.
+        I. Then Click On " Libraries " Option. After That Click On " Classpath ".
+        J. After Clicking On "Classpath" Find "Add External JARs "
+        K. Add Given JAR File :- " ojdbc8.jar ".
+        L. After Adding The JAR File Click On " Apply And Close " Option.
+        M. Then Press " CTRL+F11 " To Run OR Execute Our JDBC Code Or Program.
+
+Thank You !!!
