@@ -8,8 +8,8 @@ public class CreatingTable {
 		DriverManager.registerDriver(new OracleDriver());
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","test","test");
 		Statement st = con.createStatement();
-    st.executeUpdate("create table student(roll_number number primary key, student_name varchar2(20),college_fees number(5))");
-    System.out.println("Table Created Successfully..");
-    con.close();
-  }
+    	st.executeUpdate("create table student(roll_number number primary key, student_name varchar2(20),college_fees number(5))");
+    	System.out.println("Table Created Successfully..");
+    	con.close();
+  	}
 }
