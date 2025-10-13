@@ -42,27 +42,22 @@ This guide explains how to **set up Eclipse IDE**, **configure JDBC libraries**,
 ---
 
 ### ✍️ 3. Write JDBC Code
-Inside your project, create a new Java class file (e.g., `JDBCExample.java`) and write your **JDBC code** for connecting and executing SQL queries.
+Inside your project, create a new Java class file (e.g., `ConnectionEstablish.java`) and write your **JDBC code** for connecting and executing SQL queries.
 
 #### Example:
 ```java
-import java.sql.*;
+ConnectionEstablish.java
 
-class JDBCExample {
-    public static void main(String[] args) {
-        try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection con = DriverManager.getConnection(
-                "jdbc:oracle:thin:@localhost:1521:xe", "bca", "college123");
-            Statement stmt = con.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM students");
-            while (rs.next())
-                System.out.println(rs.getString(1) + " " + rs.getString(2));
-            con.close();
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-    }
+import java.sql.*;
+import oracle.jdbc.OracleDriver;
+
+public class ConnectionEstablish {
+	public static void main(String[] args) throws Exception {
+		DriverManager.registerDriver(new OracleDriver());
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","test","test");
+    System.out.println("Connection Established Successfully");
+		con.close();
+	}
 }
 ```
 
@@ -94,13 +89,14 @@ To run your JDBC program, you must add the Oracle JDBC driver JAR file.
 Before running the Java code, create a user in Oracle Database:
 
 ```sql
-CREATE USER bca IDENTIFIED BY college123;
-GRANT dba TO bca;
+CREATE USER test IDENTIFIED BY test;
+GRANT dba TO test;
 ```
 
 ---
 
 ## ✅ Summary
+
 | Step | Description |
 |------|--------------|
 | 1️⃣ | Install Eclipse IDE |
