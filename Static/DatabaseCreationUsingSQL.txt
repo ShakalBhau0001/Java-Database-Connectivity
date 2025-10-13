@@ -1,0 +1,15 @@
+SQL Query :->
+
+create user test identified by test;
+grant dba to test;
+
+
+Output :-> 
+
+SQL> create user test identified by test;
+
+User created.
+
+SQL> grant dba to test;
+
+Grant succeeded.
