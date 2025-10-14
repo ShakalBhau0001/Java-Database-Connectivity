@@ -8,7 +8,7 @@ public class CreatingTable {
 		DriverManager.registerDriver(new OracleDriver());
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","test","test");
 		Statement st = con.createStatement();
-		st.execute("create table BCA3(empid number primary key,empname varchar2(50),address varchar2(50),mobileno number(10),designation varchar2(20),department varchar2(20),salary number(7,2))");
+		st.execute("create table EMP(empid number primary key,empname varchar2(50),address varchar2(50),mobileno number(10),designation varchar2(20),department varchar2(20),salary number(7,2))");
 		System.out.println("Table Created");
 		con.close();
 	}
