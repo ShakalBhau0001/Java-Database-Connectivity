@@ -15,7 +15,7 @@ public class DeletingRecord {
             int id = sc.nextInt();
             sc.nextLine();
 
-            PreparedStatement ps = con.prepareStatement("DELETE FROM BCA3 WHERE empid = ?");
+            PreparedStatement ps = con.prepareStatement("DELETE FROM EMP WHERE empid = ?");
             ps.setInt(1, id);
 
             int count = ps.executeUpdate();
