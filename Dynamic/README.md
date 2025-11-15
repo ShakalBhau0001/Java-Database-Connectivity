@@ -109,5 +109,5 @@ GRANT dba TO test;
 ---
 
 ## 👨‍💻 Author
-**Developed by:** [Shakal Bhau ❤️]  
-**GitHub:** [github.com/ShakalBhau0001](https://github.com/ShakalBhau0001)
+> **Developed by:** [Shakal Bhau ❤️]  
+> **GitHub:**  [ShakalBhau0001](https://github.com/ShakalBhau0001)
