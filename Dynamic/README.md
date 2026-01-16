@@ -10,7 +10,7 @@ This guide explains how to **set up Eclipse IDE**, **configure JDBC libraries**,
 
 ## 🧰 Prerequisites
 - **Java JDK** installed (version 8 or above)  
-- **Eclipse IDE for Java Developers**  
+- **Eclipse IDE for Enterprise Java and Web Developers**  
 - **Oracle Database** or any other relational DB  
 - **`ojdbc8.jar`** JDBC driver  
 
@@ -19,12 +19,12 @@ This guide explains how to **set up Eclipse IDE**, **configure JDBC libraries**,
 ## ⚙️ Step-by-Step Setup Guide
 
 ### 🪄 1. Install Eclipse IDE
-1. Download **Eclipse IDE for Java Developers**  
-   👉 [Eclipse Download Link](https://www.eclipse.org/downloads/packages/release/2025-09/r)
+1. Download **Eclipse IDE for Enterprise Java and Web Developers**  
+   👉 [Eclipse Download Link](https://www.eclipse.org/downloads/packages/release/2025-12/r)
 2. Select **Windows x86_64** and download the ZIP version.
 3. After downloading, locate this file:  
    ```
-   eclipse-java-2025-09-R-win32-x86_64.zip
+   eclipse-java-2025-12-R-win32-x86_64.zip
    ```
 4. Extract the ZIP file:
    - Right-click on it  
@@ -109,7 +109,7 @@ GRANT dba TO test;
 ---
 
 ## 👨‍💻 Author
-> **Developed by:** [Shakal Bhau ❤️]  
+> **Developed by:** [Shakal Bhau]  
 > **GitHub:**  [ShakalBhau0001](https://github.com/ShakalBhau0001)
 
 ---
