@@ -1,4 +1,4 @@
-# 💾 JDBC (Java DataBase Connectivity)
+# 💾 JDBC (Java DataBase Connectivity) (Based On Command Line Interface)
 
 ## 📘 Overview
 **JDBC (Java Database Connectivity)** is a Java API that enables Java programs to interact with databases.  
