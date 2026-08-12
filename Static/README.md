@@ -19,7 +19,7 @@ This guide explains how to **set up Eclipse IDE**, **configure JDBC libraries**,
 
 ### 🪄 1. Install Eclipse IDE
 1. Download **Eclipse IDE for Enterprise Java and Web Developers**  
-   👉 [Eclipse Download Link](https://www.eclipse.org/downloads/packages/release/2025-12/r)
+   👉 [Eclipse Download Link](https://www.eclipse.org/downloads/packages/release/2026-06/r)
 2. Select **Windows x86_64** and download the ZIP version.
 3. After downloading, locate this file:  
    ```
